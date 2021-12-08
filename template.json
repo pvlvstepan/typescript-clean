@@ -1,7 +1,4 @@
 {
-    "name": "cra-template-typescript-clean",
-    "version": "0.1.0",
-    "private": true,
     "dependencies": {
         "@types/node": "^12.20.37",
         "@types/react": "^17.0.37",
@@ -32,23 +29,5 @@
         "format": "prettier --write .",
         "lint": "tsc --noEmit && eslint src/**/*.ts{,x}",
         "fix": "eslint --fix src/**/*.ts{,x}"
-    },
-    "eslintConfig": {
-        "extends": [
-            "react-app",
-            "react-app/jest"
-        ]
-    },
-    "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
     }
 }
