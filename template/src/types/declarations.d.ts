@@ -1,0 +1,1 @@
+// type declarations go here
